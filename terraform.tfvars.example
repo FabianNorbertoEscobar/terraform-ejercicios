@@ -1,0 +1,10 @@
+aws_region   = "us-east-1"
+project_name = "terraform-lab"
+environment  = "dev"
+ssh_cidr     = "198.51.100.10/32" # Sustituir por tu IP pública.
+# key_name = "mi-clave-existente"
+instance_type     = "t3.micro"
+db_instance_class = "db.t3.micro"
+db_name           = "labdb"
+db_username       = "labadmin"
+# Proporcionar la contraseña mediante TF_VAR_db_password.
